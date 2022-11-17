@@ -11,8 +11,9 @@ public class UserTest {
     @Test
     public void testPostAll(){
 	User user = new User();
-	user.userName = "linke";
+	System.out.println(user);
     }
+
 }
 
 
