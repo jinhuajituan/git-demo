@@ -7,7 +7,12 @@ public class UserTest {
         List<User> allUser = userService.getAllUser();
         System.out.println(allUser);
     }
-
+    
+    @Test
+    public void testPostAll(){
+	User user = new User();
+	user.userName = "linke";
+    }
 }
 
 
