@@ -1,12 +1,13 @@
-hello world!hello world!
-world!helo worlw
-world!hello worlw
-world!hello worlw;
-E/*/////*--+74
-hello worl·2AD-+-+78/7-/
-/!088794////`r1/
-HEJJJJJJJJ
-master test
-hot-fix test
+public class UserTest {
+
+    UserService userService = new UserServiceImpl();
+
+    @Test
+    public void testGetAll(){
+        List<User> allUser = userService.getAllUser();
+        System.out.println(allUser);
+    }
+
+}
 
 
